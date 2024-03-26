@@ -8,37 +8,68 @@
   </head>
   <body>
     <main>
+
+      <div class="Cliente">
+        <ul class="link-cliente">
+          <li id="link-1" class="ativo"><a href="#">Cadrastrar Cliente</a></li>
+          <li id="link-2" class="inativo"><a href="#">Realizar Pedidos</a></li>
+        </ul>
+      </div>
+
       <div class="meusProdutos">
-        <div class="adicionarProdutos">
-            <h2>Cadastrar Produtos</h2>
-          <label for="Nome">Nome</label
-          ><input class="Nome" name="Nome" type="text" />
-          <label for="Preco">Preco</label
-          ><input class="Preco" name="Preco" type="text" />
-          <label for="Quantidade">Quantidade</label
-          ><input class="quantidade" name="Quantidade" type="number" />
-          <button class="btnprod">Adicionar Produto</button>
+
+        <div class="cadrastroCliente">
+          <h2>Cadastro Cliente</h2>
+          <label for="NomeCliente">Nome</label>
+            <input id="NomeCliente" class="NomeCliente" name="NomeCliente" type="text" />
+            <label for="emailCliente">Email</label>
+             <input id="emailCliente" class="emailCliente" name="emailCliente" type="text" />
+              <label for="endCliente">Endereço</label>
+              <input id="endCliente" class="endCliente" name="endlCliente" type="text" />
+              <button class="btnSalvarcliente"><i class="fa-regular fa-pen-to-square"></i> Salvar</button>
         </div>
 
-        <div>
-          <h2>Carrinho de Compra</h2>
+        <div class="adicionarProdutos">
+            <h2>Realizar Pedido</h2>
+          <label for="Nome">Produto</label
+          ><input id="Nome" class="Nome" name="Nome" type="text" />
+          <label for="Preco">Preço</label
+          ><input id="Preco" class="Preco" name="Preco" type="text" />
+          <label for="Quantidade">Quantidade</label
+          ><input class="Quantidade" name="Quantidade" id="Quantidade" type="text" />
+          <button class="btnprod"><i class="fa-solid fa-cart-plus"></i> Adicionar Produto</button>
+        </div>
+
+        <div class="carrinho">
+          <h2>Pedidos 
+            do Carrinho</h2>
           <ul class="produtos">
-            
+            <li class="vazio">Carrinho Vazio</li>   
           </ul>
         </div>
 
         <div class="pedcliente">
-          <h2>Total do Pedido</h2>
+          <h2>Total do Carrinho</h2>
           <ul class="pedidos">
             
-          </ul>
-            
-          </ul>
-  
+          </ul>  
+      </div>
+
+
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h1>Resumo da Compra</h1>
+          <div id="infoCliente">
+          </div>
+          <div id="infoCompra">
+          </div>
+        </div>
       </div>
 
 
     </main>
     <script src="./src/index.js"></script>
+    <script src="https://kit.fontawesome.com/0850f00bdd.js" crossorigin="anonymous"></script>
   </body>
 </html>
