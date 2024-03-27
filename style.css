@@ -253,6 +253,9 @@ a {
       height: fit-content;
     }
   
+    button{
+      width: 250px;
+    }
     .Cliente {
       transform: rotate(90deg);
       width: fit-content;
@@ -298,12 +301,16 @@ a {
     }
   
     .produtos {
-      width: 600px;
+      width: 560px;
       text-align: center;
     }
   
     .link-cliente{
       flex-direction: row;
+    }
+
+    .pedidosCar{
+      align-items: center;
     }
 }
 @media screen and (max-width: 650px) {
@@ -315,33 +322,33 @@ a {
     top: 47.5%;
     left: auto;
     transform-origin: top left;
-    margin-left: 40px;
+    margin-left: 75px;
     margin-top: -100px;
   }
 
-  .meusProdutos {
- 
-    width: 360px;
- 
+  .btnSalvarcliente{
+    width: 250px;
   }
+  .meusProdutos {
+     width: 320px;
+   }
 
   .carrinho {
  
-    width: 340px;
+    width: 280px;
   }
 
   .pedcliente {
-    width: 340px;
+    width: 280px;
 
   }
 
   .adicionarProdutos {
-    width: 340px;
+    width: 280px;
 ;
   }
 
   .produtos {
-    width: 320px;
-
+    width: 260px;
   }
 
