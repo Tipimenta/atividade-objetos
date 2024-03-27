@@ -266,8 +266,8 @@ a {
       top: 47.5%;
       left: auto;
       transform-origin: top left;
-      margin-left: -250px;
-      margin-top: -460px;
+      margin-left: -150px;
+      margin-top: -160px;
     }
   
     .meusProdutos {
@@ -277,17 +277,17 @@ a {
       row-gap: 20px;
       justify-content: center;
       flex-direction: column;
-      width: 650px;
+      width: 550px;
       height: fit-content;
     }
   
     .carrinho {
       order: -1;
-      width: 600px;
+      width: 510px;
     }
   
     .pedcliente {
-      width: 600px;
+      width: 510px;
       display: none;
       flex-direction: column;
       align-items: center;
@@ -296,7 +296,7 @@ a {
     }
   
     .adicionarProdutos {
-      width: 600px;
+      width: 510px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
@@ -304,7 +304,7 @@ a {
     }
   
     .produtos {
-      width: 560px;
+      width: 490px;
       text-align: center;
     }
   
