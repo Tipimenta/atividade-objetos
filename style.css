@@ -267,7 +267,7 @@ a {
       left: auto;
       transform-origin: top left;
       margin-left: -150px;
-      margin-top: 0px;
+      margin-top: 20px;
     }
   
     .meusProdutos {
@@ -321,7 +321,7 @@ a {
   .Cliente {
  
     margin-left: 124px;
-    margin-top: -185px;
+    margin-top: -165px;
  
   }
 
