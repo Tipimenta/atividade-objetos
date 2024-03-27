@@ -262,7 +262,7 @@ a {
     .Cliente {
       transform: rotate(90deg);
       width: fit-content;
-      position: fixed;
+      position: absolute;
       top: 47.5%;
       left: auto;
       transform-origin: top left;
@@ -364,12 +364,12 @@ a {
   .Cliente {
     transform: rotate(90deg);
     width: fit-content;
-    position: fixed;
+    position: absolute;
     top: 47.5%;
     left: auto;
     transform-origin: top left;
     margin-left: 160px;
-    margin-top: -450px;
+    margin-top: -160px;
   }
 
   button{
