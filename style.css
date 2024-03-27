@@ -321,7 +321,7 @@ a {
   .Cliente {
  
     margin-left: 124px;
-    margin-top: -210px;
+    margin-top: -185px;
  
   }
 
@@ -351,6 +351,10 @@ a {
   }
 
   button{
+    width: 150px;
+  }
+
+  input {
     width: 150px;
   }
 
