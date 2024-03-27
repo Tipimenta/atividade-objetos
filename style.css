@@ -243,7 +243,7 @@ a {
   .meusProdutos {
   width: 840px;
   }
-
+}
   @media screen and (max-width: 850px) {
     .modal{
       justify-content: center;
@@ -316,14 +316,9 @@ a {
 @media screen and (max-width: 650px) {
   
   .Cliente {
-    transform: rotate(90deg);
-    width: fit-content;
-    position: fixed;
-    top: 47.5%;
-    left: auto;
-    transform-origin: top left;
+ 
     margin-left: 75px;
-    margin-top: -100px;
+ 
   }
 
   .btnSalvarcliente{
@@ -345,10 +340,50 @@ a {
 
   .adicionarProdutos {
     width: 280px;
-;
   }
 
   .produtos {
     width: 260px;
   }
+}
 
+@media screen and (max-width: 350px){
+  .Cliente {
+    transform: rotate(90deg);
+    width: fit-content;
+    position: fixed;
+    top: 47.5%;
+    left: auto;
+    transform-origin: top left;
+    margin-left: 120px;
+    margin-top: -100px;
+  }
+
+  button{
+    width: 150px;
+  }
+  .btnSalvarcliente{
+    width: 150px;
+  }
+  .meusProdutos {
+     width: 280px;
+   }
+
+  .carrinho {
+ 
+    width: 250px;
+  }
+
+  .pedcliente {
+    width: 250px;
+
+  }
+
+  .adicionarProdutos {
+    width: 250px;
+  }
+
+  .produtos {
+    width: 230px;
+  }
+}
