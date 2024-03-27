@@ -320,35 +320,40 @@ a {
   
   .Cliente {
  
-    margin-left: 75px;
-    margin-top: -460px;
+    margin-left: 124px;
+    margin-top: -210px;
  
   }
 
   .btnSalvarcliente{
-    width: 250px;
+    width: 150px;
   }
   .meusProdutos {
-     width: 320px;
+     width: 280px;
    }
 
   .carrinho {
  
-    width: 280px;
+    width: 250px;
   }
 
   .pedcliente {
-    width: 280px;
+    width: 250px;
 
   }
 
   .adicionarProdutos {
-    width: 280px;
+    width: 250px;
   }
 
   .produtos {
-    width: 260px;
+    width: 210px;
   }
+
+  button{
+    width: 150px;
+  }
+
 }
 
 @media screen and (max-width: 350px){
